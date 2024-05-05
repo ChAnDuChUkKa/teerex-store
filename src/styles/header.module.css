@@ -1,0 +1,36 @@
+.header{
+    background-color: #fff6dd;
+    width: 100%;
+    color: #000000;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    height: 64px;
+    top: 0;
+    z-index: 9999;
+  }
+  
+  .headerDiv{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .cart{
+    position: relative;
+    /* width: 2rem;
+    height: 2rem; */
+  }
+
+  .cartNumber{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+  }
