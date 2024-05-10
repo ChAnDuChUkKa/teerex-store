@@ -17,6 +17,7 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.headerDiv}>
         <Link href="/">TeeRex Store</Link>
+        {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
         <a href="/cart" onClick={(e) => handleLinkClick(e)}>
           <div className={styles.cart}>
             <FaCartShopping />

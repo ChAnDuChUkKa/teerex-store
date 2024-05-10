@@ -64,6 +64,7 @@ export const AppProvider = ({ children }: any) => {
 
   useEffect(() => {
     setFilteredData(searcProducts(searchString));
+    
   }, [searchString, products]);
 
   useEffect(() => {
